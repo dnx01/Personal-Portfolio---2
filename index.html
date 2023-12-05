@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portofolio | DNZ</title>
+</head>
+<body>
+    <div class="loader-container">
+        <div class="loader"></div>
+        <h1 class="welcome">Welcome</h1>
+    </div>
+    <div id="content" style="display: none;">
+        <header>
+            <div class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </header>
+        <main>
+            <section id="home">
+                <div class="main">
+                    <h4>Hi, I Am <span>dnz</span>🤙</h4>
+                    <p class="title"></p>
+                </div>
+                <div class="box">
+                    <div class="item">
+                        <div class="icon">
+                            <i class='bx bx-check-shield'></i>
+                        </div>
+                        <div class="info">
+                            <h3>+2</h3>
+                            <p>Years Of Experiences</p>
+                        </div>
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class='bx bx-check-circle'></i>
+                        </div>
+                        <div class="info">
+                            <h3>+50</h3>
+                            <p>Completed Projects</p>
+                        </div>
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class='bx bx-laugh'></i>
+                        </div>
+                        <div class="info">
+                            <h3>+50</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="about-container">
+                    <h2>About Me</h2>
+                    <p>I am a passionate front-end developer with over 2 years of experience. I love creating beautiful and easy-to-use websites that provide a great user experience. My skills include HTML, CSS, JavaScript and various front-end frameworks. I am constantly learning and exploring new technologies to improve my development skills.</p>
+                    <p>When I'm not coding, you can find me exploring the outdoors, playing video games, or reading a good book. I believe in continuous growth and strive to improve my skills with each project I work on.</p>
+                </div>
+            </section>
+            
+            <section id="skills">
+                <h5 class="seprator">My Skills</h5>
+
+                <div class="skills">
+                    <div class="left">
+                        <div class="info">
+                            <h3>What My Programming Skills Included?</h3>
+                            <p>
+                                I develop simple, intuitive and responsive user interface that helps users get things done with less
+                                effort and time with those technologies.
+                            </p>
+                        </div>
+                    </div>
+            
+                    <div class="right">
+                        <div class="item">
+                            <i class='bx bxl-html5'></i>
+                        </div>
+                        <div class="item">
+                            <i class='bx bxl-css3'></i>
+                        </div>
+                        <div class="item">
+                            <i class='bx bxl-typescript'></i>
+                        </div>
+                        <div class="item">
+                            <i class='bx bxl-git'></i>
+                        </div>
+                        <div class="item">
+                            <i class='bx bxl-bootstrap'></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <section id="contact">
+            <div class="start">
+                <h3>Start a Project</h3>
+                <p>Are you interested in working together? We can talk by email or chat. I will buy the coffee.</p>
+                <button>Contact Me</button>
+            </div>
+            <span class="credit">Created By <a href="https://github.com/dnx01" target="_blank"> dnz</a> | &copy; 2023 All rights reserved.</span>
+            </section>
+        </footer>
+
+
+        <script src="script.js"></script>
+        <!-- typed js effect starts -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".title", {
+                strings: ["I am a Front-End Developer"],
+                loop: false,
+                typeSpeed: 30,
+                startDelay: 4350,
+                typeDelay: 100
+            });
+        </script>
+        <!-- typed js effect ends -->
+    </div>
+</body>
+</html>
