@@ -8,6 +8,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/56a1ae99-7bd3-493b-bf07-b0e50cc104b9/deploy-status)](https://app.netlify.com/sites/freepersonalportofoliobydnz/deploys)
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dnzx&label=Profile%20views&color=0e75b6&style=flat" alt="dnzx" /> </p>
+
 
 
